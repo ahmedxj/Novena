@@ -912,6 +912,7 @@ nav .hubrger{
 }
 .footer .footer-info .footer-items .icons li a:hover{
     background-color: var(--color3);
+    color:white;
 }
 .footer .footer-info .footer-items .bar{
     height: 2px;
