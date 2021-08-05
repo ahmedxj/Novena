@@ -45,8 +45,8 @@
                 <a href="#" class="logo">
                     <img src="img/logo.png" alt="">
                 </a>
-                <button class="hubrger"><span class="icofont-navigation-menu"></span></button>
-                <ul>
+                <div class="hubrger" id="hubrger"><span class="icofont-navigation-menu"></span></div>
+                <ul class="ulss">
                     <li><a href="#">Home</a> </li>
                     <li><a href="#">About</a> </li>
                     <li><a href="#">Service</a> </li>
@@ -443,6 +443,13 @@
             </div>
         </div>
         <!-- end footer -->
+		
+		<script>$('.counter').counterUp({
+			delay: 10,
+			time: 1000
+			});</script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<script src="jquery.counterup.min.js"></script>
 
         <script src="lib/wow lib/wow/wow.min.js"></script>
         <script src="js/script.js"></script>
